@@ -1,7 +1,7 @@
 {
   "name": "incompose",
   "version": "0.0.13",
-  "description": "A inferno utility belt for function components and higher-order components",
+  "description": "An inferno utility belt for function components and higher-order components",
   "repository": {
     "type": "git",
     "url": "git://github.com/zanettin/incompose.git"
@@ -21,9 +21,9 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "build": "babel src --out-dir dist",
     "prepublish": "npm run build",
-    "lint": "./node_modules/.bin/eslint src/**",
+    "lint": "eslint src/**",
     "cspell": "cspell src/**/*.js tests/**/*.js docs/**/*.md --config ./cSpell.json",
     "ci": "npm run test && npm run lint"
   },
