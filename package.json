@@ -43,5 +43,12 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-inferno": "^6.10.4",
     "jest": "^19.0.2"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Carsten Lamm",
+      "email": "CarstenLamm+incompose@gmail.com",
+      "url": "https://github.com/FQ400"
+    }
+  ]
 }
